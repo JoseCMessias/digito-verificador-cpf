@@ -1,7 +1,7 @@
 
-puts "==="
+puts "========== Validação =========="
 print "Digite o seu cpf: "
-cpf = gets.chomp # 535.950.256     -87
+cpf = gets.chomp 
 
 cpf = cpf.delete(".")
 
